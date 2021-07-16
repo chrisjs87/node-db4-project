@@ -22,6 +22,8 @@ The requirements for the system as stated by the client are:
 - If a step involves one or more ingredients, each ingredient is used in a certain quantity.
 - Ingredients can be used in different recipes, in different quantities.
 
+[COMPLETE]  [COMPLETE] [COMPLETE]
+
 #### Data Model
 
 After brainstorming with the team it is suggested that a **JSON representation** of a recipe _could_ look like the following:
@@ -60,11 +62,11 @@ Before writing any code, write out all desired tables in the data model and dete
 
 #### Project Scaffolding
 
-- Put an Express application together starting with the `package.json` and a `knexfile.js`. Use existing projects as reference if needed.
+- [COMPLETE] Put an Express application together starting with the `package.json` and a `knexfile.js`. Use existing projects as reference if needed.
 
 #### Migrations and Seeds
 
-- Write a migration file that creates all tables necessary to model this data
+- [COMPLETE] Write a migration file that creates all tables necessary to model this data
 - Write seed files to populate the tables with test data. **Hint**: Keep your recipes simple or this step could become extremely time consuming.
 
 #### Data Access
